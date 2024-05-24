@@ -9,7 +9,7 @@ import itertools
 load_dotenv()
 
 # Configure the generative model
-genai.configure(api_key=os.environ['GEMINI_API_KEY_v2'])
+genai.configure(api_key=os.environ['GEMINI_API_KEY_v1'])
 
 # Function to label a single news headline
 def labeling(news_headline):
